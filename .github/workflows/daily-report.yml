@@ -4,6 +4,8 @@ on:
   schedule:
     # 05:00 UTC = 7:00 w Warszawie latem, 6:00 zimą
     - cron: "0 5 * * *"
+    # jednorazowy test, do usunięcia
+    - cron: "44 12 22 10 *"
   workflow_dispatch:
 
 jobs:
