@@ -1,0 +1,5 @@
+*.zip
+*.db
+health-data/
+__pycache__/
+.venv/
